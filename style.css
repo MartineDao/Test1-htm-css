@@ -44,6 +44,12 @@ a {
     height: 150px;
 }
 
+.titreh {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .pan {
     border: 1px solid #ddd;
     padding: 10px;
@@ -141,16 +147,30 @@ a span:hover {
     gap: 20px;
 }
 
-.images h3 a {
+.images .titre3,
+.inf .titre3 {
+    font-weight: bold;
+    font-size: 19px;
+    margin: 19px 0;
+}
+
+.images .titre3 a {
+
     color: black;
 }
 
-.images h3 a:hover {
+.images .titre3 a:hover {
     color: darkblue;
     text-decoration: underline;
 }
 
-h4 span {
+.titre4 {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 21px 0;
+}
+
+.titre4 span {
     color: blue;
 }
 
@@ -182,9 +202,11 @@ h4 span {
 
 .ct {
     font-size: 55px;
+    font-weight: bold;
     color: purple;
     text-align: center;
     text-transform: uppercase;
+    margin: 22px 0;
 }
 
 .bestSNw {
@@ -193,7 +215,13 @@ h4 span {
     margin-top: 100px;
 }
 
-h2 span {
+.titre2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.titre2 span {
     font-size: 1rem;
     margin-left: 40px;
 }
@@ -209,11 +237,11 @@ h2 span {
     gap: 10px;
 }
 
-.inf h3 a {
+.inf .titre3 a {
     color: black;
 }
 
-.inf h3 a:hover {
+.inf .titre3 a:hover {
     color: darkblue;
     text-decoration: underline;
 }
@@ -232,8 +260,7 @@ h2 span {
     margin-left: 100px;
 }
 
-.promoteurs h1,
-.partenaires h1 {
+.titre {
     text-align: center;
     font-size: 50px;
 }
@@ -287,11 +314,14 @@ h2 span {
     text-decoration: underline;
 }
 
-.ikasugu h1 {
+.ikasugu .titre {
+    font-size: 40px;
     color: blue;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
-.ikasugu h1 span {
+.ikasugu .titre span {
     color: purple;
 }
 
